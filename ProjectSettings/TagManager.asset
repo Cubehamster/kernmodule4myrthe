@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LevelParts
+  - Slider Block
+  - Portal
+  - PickUp
+  - PortalSet
+  - HeadJoint
+  - DirectionalLight
+  - Clone
+  - PortalCheckSurface
+  - Skeleton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Rendertexture
+  - Player
+  - Test
+  - Sun
+  - Moon
+  - CloneSun
+  - CloneMoon
+  - PortalCheckSurface
+  - Character
+  - NoShadows
+  - TransparentFX
+  - UV
+  - SunStencil
+  - Tutorial
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

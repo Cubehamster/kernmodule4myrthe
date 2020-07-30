@@ -10,7 +10,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
+# Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
@@ -58,3 +58,17 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Prefabs/level parts/islands (1).prefab.meta
+Assets/Prefabs/level parts/islands.prefab.meta
+Assets/Prefabs/level parts.meta
+Assets/Prefabs/level parts/islands 1.prefab.meta
+Assets/Models/level2/level2 stencile buffer.prefab.meta
+Assets/Prefabs/level parts/islands (2).prefab.meta
+Assets/StreamingAssets/Master.bank
+Assets/StreamingAssets/Master.bank.meta
+Assets/StreamingAssets/Master.strings.bank
+Assets/StreamingAssets/Master.strings.bank.meta
+Assets/StreamingAssets/Music.bank
+Assets/StreamingAssets/Music.bank.meta
+Assets/StreamingAssets/Sound effects.bank
+Assets/StreamingAssets/Sound effects.bank.meta

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pond 1
+  m_Shader: {fileID: 4800000, guid: b202479c80ac08e4ab80425aa864952c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b8f90c19eb4de6d4cbd90bdf628fad62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 3872f3ab91661b14a868549ccd4b4837, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _line:
+        m_Texture: {fileID: 2800000, guid: 3872f3ab91661b14a868549ccd4b4837, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: -0.72
+    - _Float1: 0
+    - __dirty: 0
+    - _gootDist: 0
+    - _gootDist1: 0
+    - _goot_Smooth: 0.8
+    - _goot_Smooth1: 0.92
+    - _speed: 0.1
+    - _speed1: 1
+    m_Colors:
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}

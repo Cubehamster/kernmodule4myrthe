@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Refract End
+  m_Shader: {fileID: 4800000, guid: a0ec8188e2ece7046b2486844569671b, type: 3}
+  m_ShaderKeywords: _ZON_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 5000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: b8f90c19eb4de6d4cbd90bdf628fad62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b8f90c19eb4de6d4cbd90bdf628fad62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: b8f90c19eb4de6d4cbd90bdf628fad62, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _ChromaticAberration: 0.1
+    - _EdgeLength: 15
+    - _Fade_range: -2.51
+    - _Fade_smooth: 0.65
+    - _Float0: 0.65
+    - _Float1: 0.65
+    - _Float2: 0
+    - _GlowRange: -4
+    - _GlowSmooth: 6
+    - _Intensity: 0.6
+    - _Noice_Speed: 0.3
+    - _Noise_Speed: 0.3
+    - _ToggleSwitch0: 0
+    - _Vertex_offset: 0.05
+    - _Zon: 1
+    - __dirty: 0
+    - _clampmax: 0.5
+    - _clampmin: 0
+    - _intens: 0
+    - _intensity: 0.2
+    - _locmatintens: 6.56
+    - _max: -2.51
+    - _moonGlowRange: -2.51
+    - _moonGlowSmooth: 0.65
+    - _noicescalevertofset: 0.2
+    - _refraction_amount: 0.8
+    - _refractionamound: 0.8
+    - _scalenoice: 0
+    - _smoothmin: 0.65
+    - _speed: 0.3
+    - _sunGlowRange: -2.51
+    - _sunGlowSmooth: 0.65
+    - _tens: 1
+    - _tresh: 0.4
+    - _tresthold: 2
+    - _veroffset: 0.1
+    - _vertnoice: 2
+    - _vertofset: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _Color1: {r: 0.0039215586, g: 0.37019718, b: 0.8392157, a: 0}
+    - _Color2: {r: 0.6981132, g: 0.39538136, b: 0.14818443, a: 0}
+    - _Fade_Color: {r: 1, g: 0.18378553, b: 0, a: 0}
+    - _GlowColor: {r: 0.8773585, g: 0.15312389, b: 0.3601191, a: 0}
+    - _Location: {r: 0, g: 0, b: 0, a: 0}
+    - _MaterialLocation: {r: 7.9349737, g: 0.24575149, b: 9.756899, a: 0}
+    - _Material_Location: {r: 0.2449647, g: 0.24575149, b: 9.756899, a: 0}
+    - _Noice_Direction: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Noice_Tile: {r: 1, g: 1, b: 0, a: 0}
+    - _Noise_Direction: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Noise_Tile: {r: 1, g: 1, b: 0, a: 0}
+    - _Speeddirection: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Vector0: {r: 0.2449647, g: 0.2457515, b: 9.756899, a: 0}
+    - _locationMat: {r: 0.2449647, g: 0.24575149, b: 9.756899, a: 0}
+    - _moonLocation: {r: 0.2449647, g: 0.2457515, b: 9.756899, a: 0}
+    - _noicetile: {r: 1, g: 1, b: 0, a: 0}
+    - _sunGlowColor: {r: 1, g: 0.5694697, b: 0, a: 0}
+    - _sunLocation: {r: 0.2449647, g: 0.24575149, b: 9.756899, a: 0}
